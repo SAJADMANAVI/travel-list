@@ -36,7 +36,6 @@ function Form() {
       packed: false,
       id: Math.trunc(Math.random() * 1000) + 1,
     };
-    console.log(newItem);
     setDescription("");
     setQuantity(1);
   }
